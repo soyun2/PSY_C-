@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\bin\Debug\Test0408.exe.config
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\bin\Debug\Test0408.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\bin\Debug\Test0408.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\obj\Debug\Test0408.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\obj\Debug\Test0408.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\obj\Debug\Test0408.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\Test0408\Test0408\obj\Debug\Test0408.pdb
