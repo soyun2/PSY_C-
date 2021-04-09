@@ -10,60 +10,96 @@ namespace Test0408
     {
         static void Main(string[] args)
         {
-            /*Car car = new Car("K8","은색","KIA","5천만원");
-            car.Model = "그랜저2020";
-            Console.WriteLine("모델 = " + car.Model);
-            car.printInfoCar();
-
-            Car car2 = new Car();
-            car2.Model = "그랜저2021";
-            car2.printInfoCar();
-
-            Console.WriteLine(new Car("G80", "black", "hyundai", "7천").ToString());*/
-
-            menuMain();
-            int n = Convert.ToInt32(Console.ReadLine());
-            if (n == 3)
-            {
-                Environment.Exit(0);
-            }
-            else if(n==2)
-            {
-                Console.WriteLine("출력 메뉴입니다.");
-                Console.WriteLine("출력하고 싶은 학생의 이름을 입력하세요 : ");
-                string stu = Console.ReadLine();
-
-            }
+            const int MAIN_MENU_INSERT = 1;
+            const int MAIN_MENU_VIEW = 2;
+            const int MAIN_MENU_EXIT = 3;
 
             Random r = new Random();
-            string[] name = { "홍길동", "김길동", "박길동", "최길동", "이길동" };
-            int[] age = { 30, 40, 50, 60, 70 };
-            char[] gender = { '남','여' };
-            string[] tel = { "010-1111-1111", "010-2222-2222", "010-3333-3333", "010-3333-3334", "010-3333-3335" };
-            string[] addr = { "대구시", "부산시", "서울시", "경산시", "대전시" };
+            string[] name = {"홍길동", "김길동",
+            "박길동", "최길동", "이길동"};
+            int[] age = { 30, 40, 50, 60, 100 };
+            char[] gender = { '남', '여' };
+            string[] tel = {"010-1111-1111",
+            "010-2222-2222", "010-2222-2233",
+            "010-2222-2444","010-2222-2255"};
+            string[] addr = {"서울 동구 신천2동",
+            "대구 동구 신천2동", "부산 동구 신천2동",
+            "대전 동구 신천2동","인천 동구 신천2동"};
 
             Student[] st = new Student[10];
-            for(int i =0; i<10;i++)
+            //List<Student> list = new List<Student>();            
+
+            while (true)
             {
-                st[i]=new Student(name[r.Next(5)], age[r.Next(5)], gender[r.Next(2)],tel[r.Next(5)],addr[r.Next(5)]);
-                Console.Write((i+1)+"번째 학생 = 이름 : " + st[i].Name + " 나이 : " + st[i].Age + " 성별 : " + st[i].Gender + " 전화번호 : " + st[i].Tel + " 주소 : " + st[i].Addr);
-                Console.WriteLine();
+                switch (menuMain())
+                {
+                    case MAIN_MENU_INSERT:
+                        createRandData(st, name, age,
+                            gender, tel, addr, r);
+                        break;
+                    case MAIN_MENU_VIEW:
+                        if (st != null)
+                        {
+                            dataView2(st);
+                        }
+                        break;
+                    case MAIN_MENU_EXIT:
+                        Environment.Exit(0);
+                        break;
+                }
             }
         }
-        public static void printInfo()
+
+        public static int menuMain()
         {
-            Console.Write("이름 : " + st[0] + " 나이 : " + st[1] + " 성별 : " + st[2] + " 전화번호 : " + st[3] + " 주소 : " + st[i].Addr);
-            Console.WriteLine();
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("학생 관리 프로그램 v1.0");
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("1. 학생정보 생성");
+            Console.WriteLine("2. 학생정보 출력");
+            Console.WriteLine("3. 종료");
+            Console.WriteLine("-----------------------");
+            Console.Write("메뉴 선택: ");
+            int menu = Convert.ToInt32(Console.ReadLine());
+            return menu;
         }
-        public static void menuMain()
+
+        public static void createRandData(Student[] st,
+            string[] name, int[] age, char[] gender,
+            string[] tel, string[] addr, Random r)
         {
-            Console.WriteLine("---------------------");
-            Console.WriteLine("학생관리프로그램 v1.0");
-            Console.WriteLine("---------------------");
-            Console.WriteLine("1.학생정보 생성");
-            Console.WriteLine("2.학생정보 출력");
-            Console.WriteLine("3.종료");
-            Console.WriteLine("---------------------");
+            for (int i = 0; i < st.Length; i++)
+            {
+                st[i] = new Student(name[r.Next(5)],
+                    age[r.Next(5)],
+                    gender[r.Next(2)],
+                    tel[r.Next(5)],
+                    addr[r.Next(5)]);
+            }
+            Console.WriteLine("정상적으로 데이터가 생성되었습니다.");
+        }
+        public static void dataView(Student[] s)
+        {
+            try
+            {
+                for (int i = 0; i < s.Length; i++)
+                {
+                    s[i].studentInfo();
+                }
+            }
+            catch (NullReferenceException e)
+            {
+                Console.WriteLine("생성된 데이터가 없습니다.");
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public static void dataView2(Student[] s)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                s[i].studentInfo();
+            }
         }
     }
 }

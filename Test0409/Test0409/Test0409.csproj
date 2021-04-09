@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5A3C8E56-81CE-43A6-9337-5E35A7BB7ABA}</ProjectGuid>
+    <ProjectGuid>{DC83BF12-ADAE-4A32-8546-8C5A7B28039A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Test0408</RootNamespace>
-    <AssemblyName>Test0408</AssemblyName>
+    <RootNamespace>Test0409</RootNamespace>
+    <AssemblyName>Test0409</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Control\CarController.cs" />
+    <Compile Include="Control\CustomerController.cs" />
+    <Compile Include="Control\SellerController.cs" />
+    <Compile Include="Main\Program.cs" />
+    <Compile Include="Model\Car.cs" />
+    <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Seller.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Util\RandData.cs" />
+    <Compile Include="View\Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
-    <Folder Include="Control\" />
-    <Folder Include="Main\" />
-    <Folder Include="Model\" />
-    <Folder Include="Util\" />
-    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
