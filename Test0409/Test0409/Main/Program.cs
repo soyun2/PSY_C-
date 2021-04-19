@@ -1,16 +1,14 @@
-﻿using System;
+﻿using ClassTest2_1.Controll;
+using ClassTest2_1.Model;
+using ClassTest2_1.Util;
+using ClassTest2_1.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Test0408;
-using Test0409.Control;
-using Test0409.Model;
-using Test0409.Util;
-using Test0409.View;
 
-
-namespace Test0409
+namespace ClassTest2_1
 {
     class Program
     {
@@ -18,31 +16,66 @@ namespace Test0409
         {
             RandData rand = new RandData();
             Menu menu = new Menu();
-            CarController carct = new CarController(rand);
-            
+            CarController carCon = 
+                new CarController(rand);
+            CustController custCon =
+                new CustController(rand);
+            SellController sellCon =
+                new SellController(rand);
+
             while (true)
             {
                 switch (menu.mainMenu())
                 {
                     case Menu.MENU_MAIN_RAND:
-                        carct.insRandData(menu.getRandSize());
+                        carCon.insRandData(menu.getRandSize());
+                        custCon.insRandData(menu.getRandSize());
+                        sellCon.insRandData(menu.getRandSize());
+                        break;
+                    case Menu.MENU_MAIN_DEL_ALL:
+                        carCon.removeAll();
+                        custCon.removeAll();
+                        sellCon.removeAll();
                         break;
                     case Menu.MENU_MAIN_VIEW:
-                        carct.carView();
+                        carCon.carView();
+                        custCon.custView();
+                        sellCon.sellView();
                         break;
                     case Menu.MENU_MAIN_ADD:
-                        break;                       
+                        switch (menu.subAddMenu())
+                        {
+                            case Menu.MENU_SUB_ADD_CAR:
+                                carCon.addCarItem(
+                                    menu.addCarMenu2());
+                                break;
+                            case Menu.MENU_SUB_ADD_CUST:
+                                custCon.addCustItem(
+                                    menu.addCustMenu());
+                                break;
+                            case Menu.MENU_SUB_ADD_SELL:
+                                sellCon.addSellItem(
+                                    menu.addSellMenu());
+                                break;
+                            case Menu.MENU_SUB_ADD_EXIT:
+                                break;
+                        }                        
+                        break;
                     case Menu.MENU_MAIN_DEL:
-                        carct.removeAll();
+                        carCon.delCarItem(menu.delCarMenu());
+                        custCon.delCustItem(menu.delCustMenu());
+                        sellCon.delSellItem(menu.delSellMenu());
                         break;
                     case Menu.MENU_MAIN_UPDATE:
+                        carCon.updateCarItem(menu.updateCarMenu());
+                        custCon.updateCustItem(menu.updateCustMenu());
+                        sellCon.updateSellItem(menu.updateSellMenu());
                         break;
                     case Menu.MENU_MAIN_EXIT:
                         Environment.Exit(0);
                         break;
                 }
             }
-                      
         }
     }
 }
