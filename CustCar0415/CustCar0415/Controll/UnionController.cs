@@ -1,4 +1,5 @@
-﻿using CustCar0415.Model;
+﻿using CustCar0415.Controll;
+using CustCar0415.Model;
 using CustCar0415.Util;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CustCar0415.Controll
+namespace ClassTeCustCar0415st2_1.Controll
 {
     class UnionController
     {
@@ -23,10 +24,8 @@ namespace CustCar0415.Controll
             custHandle = new CustController(rand);
             sellHandle = new SellController(rand);
         }
-        public UnionController(
-            CarController carHandle,
-            CustController custHandle,
-            SellController sellHandle)
+
+        public UnionController(CarController carHandle, CustController custHandle, SellController sellHandle)
         {
             this.carHandle = carHandle;
             this.custHandle = custHandle;
@@ -41,6 +40,7 @@ namespace CustCar0415.Controll
         {
             listUn.Add(deal);
         }
+
         public void insRandData(int count)
         {
             for (int i = 0; i < count; i++)
@@ -49,10 +49,14 @@ namespace CustCar0415.Controll
                     new Car(rand.getModel(), rand.getColor(), rand.getCompany(), rand.getPrice()),
                     new Customer(rand.getName(), rand.getAge(), rand.getTel(), rand.getAddr(), rand.getGender()),
                     new Seller(rand.getName(), rand.getTel(), rand.getJikwi(), rand.getOffice()),
-                    DateTime.Now.ToString("yyyy년MM월dd일-") + DateTime.Now.ToString("HH:mm분:ss초"), rand.getPrice()));
+                    DateTime.Now.ToString("yyyy년MM월dd일 -") +
+                    DateTime.Now.ToString("HH:mm분:ss초"),
+                    rand.getPrice() + "+500만원"
+                    ));
+
             }
         }
-        public void dealVeiwAll()
+        public void dealViewAll()
         {
             if (listUn.Count == 0)
             {
@@ -64,7 +68,7 @@ namespace CustCar0415.Controll
             {
                 Console.WriteLine("번호: " + (i + 1));
                 Console.WriteLine(listUn[i].ToString());
-                Console.WriteLine("---------------------------");
+                Console.WriteLine("-------------------------------------");
             }
         }
         public void dealView()
@@ -79,8 +83,18 @@ namespace CustCar0415.Controll
             {
                 Console.WriteLine("번호: " + (i + 1));
                 listUn[i].dealInfo();
-                Console.WriteLine("---------------------------");
+                Console.WriteLine("-------------------------------------");
             }
+        }
+
+        public void removeAll()
+        {
+            if(listUn.Count == 0)
+            {
+                Console.WriteLine("거래 데이터가 존재하지 않습니다.");
+                return;
+            }
+            listUn.Clear();
         }
     }
 }

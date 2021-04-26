@@ -1,0 +1,14 @@
+E:\kb2021_c#_work\CustCar0415\CustCar0415\bin\Debug\netcoreapp3.1\CustCar0415.exe
+E:\kb2021_c#_work\CustCar0415\CustCar0415\bin\Debug\netcoreapp3.1\CustCar0415.deps.json
+E:\kb2021_c#_work\CustCar0415\CustCar0415\bin\Debug\netcoreapp3.1\CustCar0415.runtimeconfig.json
+E:\kb2021_c#_work\CustCar0415\CustCar0415\bin\Debug\netcoreapp3.1\CustCar0415.runtimeconfig.dev.json
+E:\kb2021_c#_work\CustCar0415\CustCar0415\bin\Debug\netcoreapp3.1\CustCar0415.dll
+E:\kb2021_c#_work\CustCar0415\CustCar0415\bin\Debug\netcoreapp3.1\CustCar0415.pdb
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.Form1.resources
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.csproj.GenerateResource.cache
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.AssemblyInfoInputs.cache
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.AssemblyInfo.cs
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.csproj.CoreCompileInputs.cache
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.dll
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.pdb
+E:\kb2021_c#_work\CustCar0415\CustCar0415\obj\Debug\netcoreapp3.1\CustCar0415.genruntimeconfig.cache

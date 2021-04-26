@@ -8,11 +8,9 @@ namespace CustCar0415.Common
 {
     class CommMenu
     {
-        public static void errMsg(string path,
-            string msg)
+        public static void errMsg(string path, string msg) //위치 , 에러타입
         {
-            string str =
-                string.Format("[{0}]:{1}", path, msg);
+            string str = string.Format("[{0}]:{1}", path, msg);
             Console.WriteLine(str);
         }
     }

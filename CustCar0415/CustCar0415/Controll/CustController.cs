@@ -8,13 +8,14 @@ using System.Threading.Tasks;
 
 namespace CustCar0415.Controll
 {
+
     class CustController
     {
-        const int OLD_MODEL = 0;
-        const int NEW_MODEL = 1;
-        List<Customer> listCust =
-            new List<Customer>();
+        const int OLD_NAME = 0;
+        const int NEW_NAME = 1;
+        List<Customer> listCust = new List<Customer>();
         RandData rand;
+
 
         public CustController(RandData rand)
         {
@@ -81,24 +82,31 @@ namespace CustCar0415.Controll
 
         public void delCustItem(string name)
         {
+
             for (int i = 0; i < listCust.Count; i++)
             {
                 if (listCust[i].Name.Equals(name))
                 {
                     listCust.RemoveAt(i--);
+
                 }
             }
+
+
+
         }
 
         public void updateCustItem(string[] name)
         {
             for (int i = 0; i < listCust.Count; i++)
             {
-                if (listCust[i].Name.Equals(name[OLD_MODEL]))
+                if (listCust[i].Name.Equals(name[OLD_NAME]))
                 {
-                    listCust[i].Name = name[NEW_MODEL];
+                    listCust[i].Name = name[NEW_NAME];
+
                 }
             }
         }
     }
+
 }

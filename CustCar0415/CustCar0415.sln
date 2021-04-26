@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustCar0415", "CustCar0415\CustCar0415.csproj", "{6F915E15-438C-4973-B3E6-E6BC5F2C7E3F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustCar0415", "CustCar0415\CustCar0415.csproj", "{47F3E238-FF80-4C13-853F-A85C2DE3B825}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6F915E15-438C-4973-B3E6-E6BC5F2C7E3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F915E15-438C-4973-B3E6-E6BC5F2C7E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F915E15-438C-4973-B3E6-E6BC5F2C7E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F915E15-438C-4973-B3E6-E6BC5F2C7E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F3E238-FF80-4C13-853F-A85C2DE3B825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F3E238-FF80-4C13-853F-A85C2DE3B825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F3E238-FF80-4C13-853F-A85C2DE3B825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F3E238-FF80-4C13-853F-A85C2DE3B825}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AD14142D-069E-4F95-B4C6-67258701BB63}
+		SolutionGuid = {190F0ADE-407A-4982-87DA-2CCFDD753B40}
 	EndGlobalSection
 EndGlobal

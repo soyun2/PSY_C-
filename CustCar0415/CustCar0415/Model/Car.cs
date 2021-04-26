@@ -51,7 +51,7 @@ namespace CustCar0415.Model
             str += "제조사: " + company + "\n";
             str += "색상: " + color + "\n";
             str += "가격: " + price + "\n";
-            str += "-----------------------------\n";
+            str += "-------------------\n";
             return str;
         }
     }

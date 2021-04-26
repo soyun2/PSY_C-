@@ -36,7 +36,7 @@ namespace CustCar0415.Controll
         {
             if (listCar.Count == 0)
             {
-                Console.WriteLine("차량 데이터가  존재하지 않습니다.");
+                Console.WriteLine("차량 데이터가 존재하지 않습니다.");
                 return;
             }
 
@@ -51,7 +51,7 @@ namespace CustCar0415.Controll
         {
             if (listCar.Count == 0)
             {
-                Console.WriteLine("차량 데이터가 존재하지 않습니다.");
+                Console.WriteLine("데이터가 존재하지 않습니다.");
                 return;
             }
 
@@ -66,7 +66,7 @@ namespace CustCar0415.Controll
         {
             if (listCar.Count == 0)
             {
-                Console.WriteLine("차량 데이터가 존재하지 않습니다.");
+                Console.WriteLine("데이터가 존재하지 않습니다.");
                 return;
             }
             listCar.Clear();
@@ -79,13 +79,18 @@ namespace CustCar0415.Controll
 
         public void delCarItem(string model)
         {
+
             for (int i = 0; i < listCar.Count; i++)
             {
                 if (listCar[i].Model.Equals(model))
                 {
                     listCar.RemoveAt(i--);
+
                 }
             }
+
+
+
         }
 
         public void updateCarItem(string[] model)
@@ -95,6 +100,7 @@ namespace CustCar0415.Controll
                 if (listCar[i].Model.Equals(model[OLD_MODEL]))
                 {
                     listCar[i].Model = model[NEW_MODEL];
+
                 }
             }
         }

@@ -10,11 +10,11 @@ namespace CustCar0415.Controll
 {
     class SellController
     {
-        const int OLD_MODEL = 0;
-        const int NEW_MODEL = 1;
-        List<Seller> listSell =
-            new List<Seller>();
+        const int OLD_NAME_SEll = 0;
+        const int NEW_NAME_SEll = 1;
+        List<Seller> listSell = new List<Seller>();
         RandData rand;
+
 
         public SellController(RandData rand)
         {
@@ -80,22 +80,28 @@ namespace CustCar0415.Controll
 
         public void delSellItem(string name)
         {
+
             for (int i = 0; i < listSell.Count; i++)
             {
                 if (listSell[i].Name.Equals(name))
                 {
                     listSell.RemoveAt(i--);
+
                 }
             }
+
+
+
         }
 
         public void updateSellItem(string[] name)
         {
             for (int i = 0; i < listSell.Count; i++)
             {
-                if (listSell[i].Name.Equals(name[OLD_MODEL]))
+                if (listSell[i].Name.Equals(name[OLD_NAME_SEll]))
                 {
-                    listSell[i].Name = name[NEW_MODEL];
+                    listSell[i].Name = name[NEW_NAME_SEll];
+
                 }
             }
         }
