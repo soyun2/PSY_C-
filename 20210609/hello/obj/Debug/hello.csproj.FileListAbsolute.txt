@@ -1,0 +1,8 @@
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\bin\Debug\hello.exe.config
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\bin\Debug\hello.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\bin\Debug\hello.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\obj\Debug\hello.Properties.Resources.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\obj\Debug\hello.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\obj\Debug\hello.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\obj\Debug\hello.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\20210609\hello\obj\Debug\hello.pdb

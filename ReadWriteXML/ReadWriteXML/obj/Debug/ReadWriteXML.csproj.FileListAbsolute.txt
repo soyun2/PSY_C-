@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\bin\Debug\ReadWriteXML.exe.config
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\bin\Debug\ReadWriteXML.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\bin\Debug\ReadWriteXML.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.Form1.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.Properties.Resources.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\ReadWriteXML\ReadWriteXML\obj\Debug\ReadWriteXML.csprojAssemblyReference.cache
