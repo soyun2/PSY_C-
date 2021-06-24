@@ -1,0 +1,13 @@
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\bin\Debug\jsonAPI.exe.config
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\bin\Debug\jsonAPI.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\bin\Debug\jsonAPI.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.Properties.Resources.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.Form1.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\jsonAPI\jsonAPI\obj\Debug\jsonAPI.csproj.CopyComplete
