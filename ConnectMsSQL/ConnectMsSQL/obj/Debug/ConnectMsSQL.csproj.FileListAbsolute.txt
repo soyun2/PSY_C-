@@ -1,0 +1,10 @@
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\bin\Debug\ConnectMsSQL.exe.config
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\bin\Debug\ConnectMsSQL.exe
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\bin\Debug\ConnectMsSQL.pdb
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.csprojAssemblyReference.cache
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.Form1.resources
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.Properties.Resources.resources
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.csproj.GenerateResource.cache
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.csproj.CoreCompileInputs.cache
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.exe
+D:\Git_DJ\newnewnew\AI_BigData_20210111\cSharp\20210623\ConnectMsSQL\ConnectMsSQL\obj\Debug\ConnectMsSQL.pdb

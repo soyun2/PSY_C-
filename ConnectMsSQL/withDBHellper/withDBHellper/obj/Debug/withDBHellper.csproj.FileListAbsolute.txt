@@ -1,0 +1,10 @@
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\bin\Debug\withDBHellper.exe.config
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\bin\Debug\withDBHellper.exe
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\bin\Debug\withDBHellper.pdb
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.csprojAssemblyReference.cache
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.Form1.resources
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.Properties.Resources.resources
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.csproj.GenerateResource.cache
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.csproj.CoreCompileInputs.cache
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.exe
+D:\kjs\c-\c#\cSharp\210623\ConnectMSSQL\withDBHellper\obj\Debug\withDBHellper.pdb

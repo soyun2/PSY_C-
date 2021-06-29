@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.Form1.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.Properties.Resources.resources
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\bin\Debug\WithDBHelper.exe.config
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\bin\Debug\WithDBHelper.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\bin\Debug\WithDBHelper.pdb
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.exe
+C:\Users\KB\Desktop\PSY\PSY_C-\ConnectMsSQL\WithDBHelper\obj\Debug\WithDBHelper.pdb
