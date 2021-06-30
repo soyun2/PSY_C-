@@ -20,10 +20,9 @@ namespace EnhancedConnectDB
             "(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)));" +
             "User Id=AI;Password=1234;";
 
-        public DataSet ds;
         public OracleCommand cmd = new OracleCommand();
         public OracleConnection OraConn;
-        public OracleDataAdapter da;
+        public new OracleDataAdapter da;
 
 
         public override void ConnectDB()

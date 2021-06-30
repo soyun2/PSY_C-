@@ -110,6 +110,7 @@ namespace EnhancedConnectDB
             this.button_delete.TabIndex = 32;
             this.button_delete.Text = "delete";
             this.button_delete.UseVisualStyleBackColor = true;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
             // 
             // button_update
             // 
@@ -119,6 +120,7 @@ namespace EnhancedConnectDB
             this.button_update.TabIndex = 31;
             this.button_update.Text = "update";
             this.button_update.UseVisualStyleBackColor = true;
+            this.button_update.Click += new System.EventHandler(this.button_update_Click);
             // 
             // button_insert
             // 
@@ -128,6 +130,7 @@ namespace EnhancedConnectDB
             this.button_insert.TabIndex = 30;
             this.button_insert.Text = "insert";
             this.button_insert.UseVisualStyleBackColor = true;
+            this.button_insert.Click += new System.EventHandler(this.button_insert_Click);
             // 
             // button_select
             // 
@@ -137,6 +140,7 @@ namespace EnhancedConnectDB
             this.button_select.TabIndex = 29;
             this.button_select.Text = "select";
             this.button_select.UseVisualStyleBackColor = true;
+            this.button_select.Click += new System.EventHandler(this.button_select_Click);
             // 
             // Form1
             // 

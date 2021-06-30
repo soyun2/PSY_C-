@@ -9,14 +9,20 @@ namespace EnhancedConnectDB
 {
     class DataManager
     {
-        public static List<TB_CUST> tb_custs = new List<TB_CUST>();
-
-        public static void Load()
+        public List<TB_CUST> tb_custs = new List<TB_CUST>();
+        public DBHelper instance;
+        //instance를 한번 생성한 뒤에 계속해서 사용하는 방식 = 싱글톤
+        public DataManager(int db=0)
         {
-            DBHelper.Query_Select();
+            instance = new DBHelper().getInstance(db);
+        }
+
+        public void Load()
+        {
+            instance.Query_Select();
             tb_custs.Clear();
 
-            foreach (DataRow item in DBHelper.ds.Tables[0].Rows)
+            foreach (DataRow item in instance.ds.Tables[0].Rows)
             {
                 TB_CUST temp = new TB_CUST();
                 temp.cust_id = item["CUST_ID"].ToString();
@@ -25,14 +31,14 @@ namespace EnhancedConnectDB
             }
         }
 
-        public static void Save()
+        public void Save()
         {
             //DB 값을 싹 날린다.
-            DBHelper.Query_Delete();
+            instance.Query_Delete();
 
             foreach (TB_CUST item in tb_custs)
             {
-                DBHelper.Query_Insert(item.cust_id, item.birth_dt);
+                instance.Query_Insert(item.cust_id, item.birth_dt);
             }
         }
 

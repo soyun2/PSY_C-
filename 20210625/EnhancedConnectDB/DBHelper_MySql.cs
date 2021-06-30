@@ -13,8 +13,7 @@ namespace EnhancedConnectDB
     {
 
         public MySqlConnection Myconn = new MySqlConnection();
-        public MySqlDataAdapter da;
-        public DataSet ds;
+        public new MySqlDataAdapter da;
 
         public override void ConnectDB()
         {
